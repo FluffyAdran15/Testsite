@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/*Background styles*/
+html{
+    background: black;
+    
+}
+body{
+    margin: 0px;
+	width: 100%;
+	min-height: 100%;
+    background: linear-gradient(180deg, rgba(1,0,208,1) 0%, rgba(0,234,255,1) 100%);
+
+
+}
+section{
+ color: rgb(255, 255, 255);
+ text-shadow:  rgb(145, 145, 145) 1px 0px 0px, rgb(0, 0, 0) 2px 0px 5px;
+}
+nav{
+    transform: translateY(25px);
+    position: fixed;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: rgb(75, 75, 75);
+  }
+  li a {
+    color: rgb(255, 255, 255);
+    text-shadow:  rgb(145, 145, 145) 1px 0px 0px, rgb(0, 0, 0) 2px 0px 5px;
+    display: block;
+    padding: 9px 18px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: rgb(27, 27, 27);
+    color: white;
+  }
+  
+/*logo*/
+img#logo{
+    width: 30%;
+    
+}
+/*Home styles*/
+section#home{
+    font-size: 25pt;
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+    margin: 20px;
+    
+}
+strong#name{
+    font-family: 'Playball', cursive;
+}
+/*About styles*/
+section#about{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 20pt;
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+}
+/*Skills styles*/
+section#skills{
+    font-size: 20pt;
+    display: block;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+figure#html{
+    display: block;
+    border:  solid 5px black;
+    margin-left:15%;
+    margin-right: 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+img#scale2{
+    transform: translateY(-50px);
+}
+img#html_logo{
+    width: 225px;
+    margin: 10px;  
+}
+figure#css{
+    background-color: white;
+    display: block;
+    border:  solid 5px black;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    position: relative;
+}
+img#css_logo{
+    width: 160px;
+    margin: 10px;
+}
+img#scale1{
+    transform: translateY(-50px);
+}
+/*Work styles*/
+section#work{
+    font-size: 20pt;
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+img#poke{
+    width: 25%;
+    margin: 25px;
+}
+img#mario{
+    width: 15%;
+    margin: 25px;
+}
+/*Contact styles*/
+section#contact{
+    font-size: 20pt;
+    display: block;
+    text-align: center;
+}
+img#insta{
+    width: 35px;
+}
+img#twitter{
+    width: 35px;
+}
+img#link{
+    width: 35px;
+}
