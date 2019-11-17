@@ -3,7 +3,8 @@
 /*Background styles*/
 html{
     background: black;
-    
+    max-width: 100%;
+    min-width: 25%;
 }
 body{
     margin: 0px;
@@ -17,11 +18,18 @@ section{
  color: rgb(255, 255, 255);
  text-shadow:  rgb(145, 145, 145) 1px 0px 0px, rgb(0, 0, 0) 2px 0px 5px;
 }
-nav{
+nav#nav{
     transform: translateY(25px);
     position: fixed;
 }
-ul {
+nav#social{
+    float: right;
+    transform: translateY(25px);
+}
+nav#social ul{
+    list-style-type: none;
+}
+nav#nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -50,12 +58,12 @@ section#home{
     font-size: 25pt;
     display: block;
     text-align: center;
-    padding-bottom: 15px;
-    margin: 20px;
+    padding: 15px;
+    
     
 }
 strong#name{
-    font-family: 'Playball', cursive;
+    font-family: 'playball', cursive;
 }
 /*About styles*/
 section#about{
@@ -81,7 +89,7 @@ figure#html{
     margin-right: 15%;
     text-align: center;
     background-color: white;
-    position: relative;
+   
 }
 img#scale2{
     transform: translateY(-50px);
@@ -97,7 +105,7 @@ figure#css{
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
-    position: relative;
+    
 }
 img#css_logo{
     width: 160px;
@@ -127,12 +135,13 @@ section#contact{
     display: block;
     text-align: center;
 }
+
 img#insta{
-    width: 35px;
+    width: 45px;
 }
 img#twitter{
-    width: 35px;
+    width: 45px;
 }
 img#link{
-    width: 35px;
+    width: 45px;
 }
