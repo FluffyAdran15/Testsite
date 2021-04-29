@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adrian Soliz|Web Developer|</title>
+    <script src="scrollFeat.js"></script>
    <script src="Bar.js" async></script>
-   <script src="Bar2.js" async></script>
-   <script src="Bar3.js" async></script>
     <link href="styles.css" rel="stylesheet"/>
 </head>
 
@@ -16,7 +15,7 @@
         <div class="title">
        <img id="az" src="arizona.jpg" alt="Background">
         <div id="center">
-            <h1>Hello, im <strong id="name"> Adrian Soliz</strong><br>I'm a web Developer</h1>
+            <h1 id="name">Hello, im<br> <strong > Adrian Soliz</strong></h1>
             <h3>
                 Front End Developer | Web designer | Freelance
             </h3>
@@ -35,35 +34,33 @@
             <a href="#Contact">Contact</a>
           </div>
         
-        <div id="About-me">
+        <div id="About-me" class="fader">
             <div class="about">
                 <h2 id="proj">About Me</h2>
             </div>
             <div class="Info">
                 <section id="about">
                     <div class="Picture">
-                        <img id="me" src="pictureme.jpg" alt="">
+                        <img id="me" src="" alt="Picture">
                     </div>
                     <div class="Description">
                         <p id="top">
-                            Im a Well knowledge Web Developer.
+                            <b>Who am i?</b>
                             <br>
-                        Im well organized person and a hard worker. In my free time i like to play
-                        video games and code. I love to watch boxing with my family and love to play sports.
-                        My favorite sport is basketball.
+                       Hi, 
                         </p>
                 </div>
                     
                 </section>
             </div>
-            <div class="Progress-bar" ">
+            <div class="Progress-bar" class="fader">
                 <h2>HTML5</h2>
-                <div id="myProgress" onload="html()">
+                <div id="myProgress" onscroll="html()">
                     <div id="myBar">10%</div>
                   </div>
                 
                   <h2>CSS3</h2>
-                <div id="myProgress" onload="move()">
+                <div id="myProgress" onscroll="move()">
                     <div id="Bar">
                     <div id="label">10%</div>
                     </div>
@@ -71,7 +68,7 @@
                   
                   <h2>JavaScript</h2>
                 
-                <div id="myProgress" onload="Java()">
+                <div id="myProgress" onscroll="Java()">
                   <div id="dour">
                     <div id="label">1%</div>
                   </div>
@@ -85,19 +82,19 @@
 
          
 
-   <div class="proj">
+   <div class="proj" class="fader">
       <h2 id="proj">Projects</h2>
   <div class="Projects">
-    <div class="pro1">
+    <div class="pro1" class="fader">
         <img id="nice" src="niceBro.png" alt="project1">
     </div>
-    <div class="pro2">
+    <div class="pro2" class="fader">
         <img id="nice" src="soon.png" alt="project2">
     </div>
-    <div class="pro3">
+    <div class="pro3" class="fader">
         <img id="nice" src="soon.png" alt="project3">
     </div>
-    <div class="pro4">
+    <div class="pro4" class="fader">
         <img id="nice" src="soon.png" alt="project4">
     </div>
   </div>
@@ -108,8 +105,8 @@
 <div class="mall">
     <div id="mail">
       <div class="mail-to">
-        <a href="mailto:soliz.adrian68@gmail.com"">
-          <button id="Contact" ">
+        <a href="mailto:soliz.adrian68@gmail.com">
+          <button id="Contact" >
             <span > Contact Me</span>
          </button>
           </a>

@@ -14,7 +14,7 @@ h2#proj{
   text-decoration: underline;
   font-size: 50px;
 }
-/* customizing the about page */
+/*  the about page */
 .about{
 text-align: center;
 font-size: 25px;
@@ -44,8 +44,8 @@ h1#proj{
 }
 /*home screen*/
 #az{
-  width: 1349px;
- height: 781.813px;
+  width: 100%;
+ height: auto
 
 }
 
@@ -54,6 +54,8 @@ h1#proj{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
 }
 .title {
   position: relative;
@@ -68,7 +70,11 @@ h1{
 
 }
 strong{
-  color: #2b042b;
+  font-size: 100px;
+  color: #fff7fb;
+}
+#name{
+  color: #000000;
 }
 
 /*button edits*/
@@ -175,7 +181,8 @@ button#king{
 #navbar {
   overflow: hidden;
   background-color: #552334;
-  width: 1330;
+  width: 100%;
+  height: auto;
   
 }
 
@@ -197,6 +204,7 @@ button#king{
 #navbar a.active {
   background-color: #ffcd28;
   color: white;
+  
 }
 
 
